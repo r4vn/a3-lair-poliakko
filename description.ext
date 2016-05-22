@@ -1,0 +1,19 @@
+onLoadName=$STR_lair_missionTitle;
+onLoadMission=$STR_lair_briefingDescription;
+author="r4vn";
+
+enableDebugConsole = 1;
+
+// Basic mission configurations
+#include "CfgFunctions.hpp"
+#include "CfgSettings.hpp"
+#include "CfgRemote.hpp"
+#include "CfgParameters.hpp"
+
+// Addon configurations
+#include "configs\CfgCaches.hpp"
+#include "configs\CfgKits.hpp"
+#include "configs\CfgAi.hpp"
+#include "configs\CfgTickets.hpp"
+#include "configs\CfgRallies.hpp"
+#include "configs\CfgIeds.hpp"

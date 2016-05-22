@@ -1,0 +1,211 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project name="Lair">
+    <Package name="Missions">
+        <Container name="Poliakko">
+            <!--
+                Mission Intel
+            -->
+            <Key ID="STR_lair_missionTitle">
+                <Original>Lair</Original>
+                <German>Lair</German>
+            </Key>
+            <Key ID="STR_lair_briefingName">
+                <Original>Lair [S&amp;D-8]: Poliakko</Original>
+                <German>Lair [S&amp;D-8]: Poliakko</German>
+            </Key>
+            <Key ID="STR_lair_briefingDescription">
+                <Original>Search and Destroy</Original>
+                <German>Suchen und Zerstören</German>
+            </Key>
+
+            <!--
+                Parameters
+            -->
+            <Key ID="STR_lair_respawnDelay">
+                <Original>Respawn Delay</Original>
+                <German>Wiedereinstiegsverzögerung</German>
+            </Key>
+            <Key ID="STR_lair_respawnVehicleDelay">
+                <Original>Vehicle Respawn Delay</Original>
+                <German>Fahrzeugswiedereinstiegsverzögerung</German>
+            </Key>
+            <Key ID="STR_lair_neededCaches">
+                <Original>Amount Caches</Original>
+                <German>Anzahl Waffenlager</German>
+            </Key>
+            <Key ID="STR_lair_minCacheGroups">
+                <Original>Minimum Amount of Cache Insurgent Groups</Original>
+                <German>Minimale Anzahl von Waffenlager-Wiederstandsgruppen</German>
+            </Key>
+            <Key ID="STR_lair_maxCacheGroups">
+                <Original>Maximum Amount of Cache Insurgent Groups</Original>
+                <German>Maximale Anzahl von Waffenlager-Wiederstandsgruppen</German>
+            </Key>
+
+            <!--
+                Buildings
+            -->
+            <Key ID="STR_lair_Land_i_Stone_HouseSmall_V1_F">
+                <Original>a small stone house</Original>
+                <German>einem kleinen Steinhaus</German>
+            </Key>
+            <Key ID="STR_lair_Land_i_Stone_HouseSmall_V3_F">
+                <Original>a small stone house</Original>
+                <German>einem kleinen Steinhaus</German>
+            </Key>
+            <Key ID="STR_lair_Land_i_Shed_Ind_F">
+                <Original>a industrial warehouse</Original>
+                <German>einer industriellen Lagerhalle</German>
+            </Key>
+            <Key ID="STR_lair_Land_Unfinished_Building_01_F">
+                <Original>a construction site</Original>
+                <German>einer Baustelle</German>
+            </Key>
+            <Key ID="STR_lair_Land_Slum_House02_F">
+                <Original>a wooden cottage</Original>
+                <German>einer Holzhütte</German>
+            </Key>
+
+            <!--
+                Kits
+            -->
+            <Key ID="STR_lair_kitOfficer">
+                <Original>Officer</Original>
+                <German>Offizier</German>
+            </Key>
+            <Key ID="STR_lair_kitRifleman">
+                <Original>Rifleman</Original>
+                <German>Schütze</German>
+            </Key>
+            <Key ID="STR_lair_kitAutomaticRifleman">
+                <Original>Automatic Rifleman</Original>
+                <German>Automatikschütze</German>
+            </Key>
+            <Key ID="STR_lair_kitMedic">
+                <Original>Medic</Original>
+                <German>Sanitäter</German>
+            </Key>
+            <Key ID="STR_lair_kitRiflemanAntiTank">
+                <Original>Rifleman Anti Tank</Original>
+                <German>Panzerabwehrschütze</German>
+            </Key>
+            <Key ID="STR_lair_kitEngineer">
+                <Original>Engineer</Original>
+                <German>Pionier</German>
+            </Key>
+            <Key ID="STR_lair_kitPilot">
+                <Original>Pilot</Original>
+                <German>Pilot</German>
+            </Key>
+        </Container>
+    </Package>
+
+    <Package name="Modules">
+        <Container name="Help">
+            <Key ID="STR_lair_diarySubject">
+                <Original>Lair</Original>
+                <German>Lair</German>
+            </Key>
+            <Key ID="STR_lair_diaryRecordCaches">
+                <Original>Caches</Original>
+                <German>Waffenlager</German>
+            </Key>
+            <Key ID="STR_lair_diaryRecordTickets">
+                <Original>Tickets</Original>
+                <German>Tickets</German>
+            </Key>
+            <Key ID="STR_lair_diaryRecordRallies">
+                <Original>Rally Points</Original>
+                <German>Rally Points</German>
+            </Key>
+            <Key ID="STR_lair_diaryRecordKits">
+                <Original>Kits</Original>
+                <German>Kits</German>
+            </Key>
+            <Key ID="STR_lair_diaryTextCaches">
+                <Original>Caches will spawn randomly on the map. For each one you will be assigned a search and destroy task.&lt;br/&gt;&lt;br/&gt;Caches are protected by enemy forces. But be aware of civilians!</Original>
+                <German>Waffenlager werden zufällig erstellt. Für jedes bekommen Sie einen Suchen und Zerstören Auftrag zugewiesen.&lt;br/&gt;&lt;br/&gt;Waffenlager werden durch feindliche Truppen beschützt. Achten Sie jedoch auf Zivilisten!</German>
+            </Key>
+            <Key ID="STR_lair_diaryTextTickets">
+                <Original>Your team will start with predefined amount of tickets based on the amount of caches.&lt;br/&gt;&lt;br/&gt;Each minute you will loose a specific amount of tickets.&lt;br/&gt;&lt;br/&gt;Note that you will loose also tickets each time a player respawns. Furthermore your ticket amount will be decreased when a friendly vehicle is destroyed.</Original>
+                <German>Ihr Team startet mit einer durch die Menge der Waffenlager bestimmten Anzahl an Tickets.&lt;br/&gt;&lt;br/&gt;Jede Minute verliert ihr Team eine vordfinierte Menge an Tickets.&lt;br/&gt;&lt;br/&gt;Beachten Sie, dass Sie Tickets verlieren, sobald ein Spieler neu einsteigt. Weiterhin wird die Ticketanzahl bei jeder Zerstörung eines verbündeten Fahrzeugs verringert.</German>
+            </Key>
+            <Key ID="STR_lair_diaryTextRallies">
+                <Original>This is a mobile respawn point for your squad and is deployed by squad leaders.&lt;br/&gt;&lt;br/&gt;A new Rally Point can only placed every 180 seconds.</Original>
+                <German>Dies ist ein mobiler Einstiegspunkt für ihr Squad und wird durch Squad Leader erstellt.&lt;br/&gt;&lt;br/&gt;Ein neuer Rally Point kann nur alle 180 Sekunden plaziert werden.</German>
+            </Key>
+            <Key ID="STR_lair_diaryTextKits">
+                <Original>This feature is under development.</Original>
+                <German>An dieser Funktionalität wird derzeitig gearbeitet.</German>
+            </Key>
+        </Container>
+
+        <Container name="Base">
+            <Key ID="STR_lair_vehicleRespawn">
+                <Original>VEHICLE AVAILABLE</Original>
+                <German>FAHRZEUG VERFÜGBAR</German>
+            </Key>
+        </Container>
+
+        <Container name="Caches">
+            <Key ID="STR_lair_cacheTitle">
+                <Original>Cache</Original>
+                <German>Waffenlager</German>
+            </Key>
+            <Key ID="STR_lair_taskTitle">
+                <Original>Destroy Cache</Original>
+                <German>Waffenlager zerstören</German>
+            </Key>
+            <Key ID="STR_lair_taskDesc">
+                <Original>Our intelligence has obtained information about a new weapon cache. It is located somewhere in the marked area. Our sources say it should be located in %1.&lt;br/&gt;&lt;br/&gt;You're ordered to search the area and destroy the cache once found. </Original>
+                <German>Unsere Aufklärung hat Informationen zu einem neuen Waffenlager erhalten. Es befindet sich irgendwo in dem markierten Bereich. Unsere Quellen sagen es soll sich in %1 befinden.&lt;br/&gt;&lt;br/&gt;Ihr Auftrag ist es diesen Bereich zu druchsauchen und das Waffenlager zu zerstören.</German>
+            </Key>
+            <Key ID="STR_lair_taskDescShort">
+                <Original>Destroy Cache</Original>
+                <German>Zerstöre Waffenlager</German>
+            </Key>
+            <Key ID="STR_lair_noEmptyPosition">
+                <Original>Can't place that here</Original>
+                <German>Kann hier nicht plaziert werden</German>
+            </Key>
+        </Container>
+
+        <Container name="Kits">
+            <Key ID="STR_lair_kitSystem">
+                <Original>Kit System</Original>
+                <German>Ausrüstungssystem</German>
+            </Key>
+            <Key ID="STR_lair_operatingAircrafts">
+                <Original>Operating Aircrafts</Original>
+                <German>Luftfahrzeuge operieren</German>
+            </Key>
+            <Key ID="STR_lair_pilotKitNeeded">
+                <Original>You need a pilot kit in order to operate air vehicles.</Original>
+                <German>Du benötigst eine Pilotenausrüstung, um ein Luftfahrzeug zu operieren.</German>
+            </Key>
+            <Key ID="STR_lair_requestKits">
+                <Original>To request a specialized kit, select it in the respawn dialog.</Original>
+                <German>Um eine Spezialausrüstung anzufordern, wähle sie im Respawn Dialog aus.</German>
+            </Key>
+        </Container>
+
+        <Container name="Rallies">
+            <Key ID="STR_lair_deployRally">
+                <Original>Deploy Rally Point</Original>
+                <German>Setze Rally Point</German>
+            </Key>
+            <Key ID="STR_lair_rallyMarker">
+                <Original>RP</Original>
+                <German>RP</German>
+            </Key>
+            <Key ID="STR_lair_rallyNote">
+                <Original>RALLY POINT</Original>
+                <German>RALLY POINT</German>
+            </Key>
+            <Key ID="STR_lair_rallyDeployNoteDesc">
+                <Original>New Rally Point Available</Original>
+                <German>Neuer Rally Point verfügbar</German>
+            </Key>
+        </Container>
+    </Package>
+</Project>
