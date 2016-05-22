@@ -9,6 +9,7 @@ enableDebugConsole = 1;
 #include "CfgSettings.hpp"
 #include "CfgRemote.hpp"
 #include "CfgParameters.hpp"
+#include "CfgNotifications.hpp"
 
 // Addon configurations
 #include "configs\CfgCaches.hpp"
