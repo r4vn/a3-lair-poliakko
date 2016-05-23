@@ -9,23 +9,22 @@ class CfgAi {
     areaSize = 800;
 
     class Insurgents {
+        #define PATH_PREFIX configFile >> "CfgGroups" >> "West" >> "Guerilla"
+
         minGroupCount = 3;
         guardCount = 3;
-        side = "Indep";
-        faction = "IND_F";
         // In this array all groups which can spawn at a cache are defined.
         // The first entry in a insurgent group array is the category of the
         // group and the second is the group name. The configuration path for
         // the represented group is build using these two values.
         groups[] = {
-            {"Infantry", "HAF_InfSquad"},
-            {"Infantry", "HAF_InfTeam"},
-            {"Infantry", "HAF_InfSentry"},
-            {"Support", "HAF_Support_CLS"},
-            {"Support", "HAF_Support_GMG"},
-            {"Support", "HAF_Support_MG"},
-            {"Motorized", "HAF_MotInf_MGTeam"},
-            {"Motorized", "HAF_MotInf_AA"}
+            PATH_PREFIX >> "Infantry" >> "IRG_InfAssault",
+            PATH_PREFIX >> "Infantry" >> "IRG_InfSentry",
+            PATH_PREFIX >> "Infantry" >> "IRG_InfTeam",
+            PATH_PREFIX >> "Infantry" >> "IRG_InfTeam_AT",
+            PATH_PREFIX >> "Infantry" >> "IRG_ReconSentry",
+            PATH_PREFIX >> "Support" >> "IRG_Support_CLS",
+            missionConfigFile >> "CfgGroups" >> "Technical"
         };
     };
 
@@ -44,6 +43,17 @@ class CfgAi {
             "C_man_shorts_2_F_afro",
             "C_man_shorts_3_F_afro",
             "C_man_shorts_4_F_afro"
+        };
+    };
+};
+
+class CfgGroups {
+    class Technical {
+        class Unit0 {
+            position[] = {0, 0, 0};
+            rank = "LIEUTENANT";
+            side = 1;
+            vehicle = "B_G_Offroad_01_armed_F";
         };
     };
 };
