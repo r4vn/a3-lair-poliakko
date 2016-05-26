@@ -5,12 +5,14 @@
  * Configuration of lair.kits addon
  */
 
+class CfgKits {
+    kitVarName = "kit";
+    defaultKit = "Rifleman";
+}
+
 // All kits used in the mission are defined in the class below.
 // Each inner class represents a single kit. Locales should be used for
 // the kit's display name.
-//
-// IMPORTANT: The first linkedItem always has to be the vest and must be the
-// same for an alternative kit variant!
 class CfgRespawnInventory {
     class Rifleman {
         displayName = $STR_lair_kitRifleman;

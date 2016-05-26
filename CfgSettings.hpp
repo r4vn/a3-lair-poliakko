@@ -14,13 +14,13 @@ class Header {
 saving = 0;
 
 respawn = 3;
-respawnOnStart = 1;
-
+respawnOnStart = -1;
 respawnDelay = 30;
-respawnTemplatesWest[] = {"MenuPosition", "MenuInventory"};
+respawnDialog = 1;
+respawnTemplates[] = {"Revive", "MenuInventory", "MenuPosition"};
 
-reviveDelay = 12;
-reviveForceRespawnDelay = 23;
+reviveDelay = 30;
+reviveForceRespawnDelay = 0;
 reviveBleedOutDelay = 350;
 
 corpseManagerMode = 1;
