@@ -16,6 +16,12 @@ class CfgTickets {
 
 class RscTitles {
     class TicketsHud {
+        #define SIZE 0.05 * safezoneW
+        #define MARGIN 0.01 * safezoneW
+        #define POS_X(n) safeZoneX + safezoneW - MARGIN - n * SIZE * 0.75
+        #define POS_Y safeZoneY + safezoneH - MARGIN - SIZE
+        #define FONT "PuristaBold"
+
         idd = 1000;
         movingEnable = 1;
         enableSimulation = 1;
@@ -25,12 +31,6 @@ class RscTitles {
         fadeOut = 0;
         onLoad = "lair_ticketsHud = _this;";
 
-        #define SIZE 0.05 * safezoneW
-        #define MARGIN 0.01 * safezoneW
-        #define POS_X(n) safeZoneX + safezoneW - MARGIN - n * SIZE * 0.75
-        #define POS_Y safeZoneY + safezoneH - MARGIN - SIZE
-        #define FONT "RobotoBold"
-
         class RscIndicator {
             idc = -1;
             type = 0;
@@ -39,11 +39,11 @@ class RscTitles {
             y = 0;
             w = 0;
             h = 0;
-            font = FONT;
             sizeEx = 0.04;
             colorText[] = {255, 255, 255, 1};
             colorBackground[] = {0, 0, 0, 0};
             text = "-";
+            font = FONT;
         };
 
         class controls {
@@ -79,7 +79,7 @@ class RscTitles {
 
             class InsurgentCacheIndicator: RscIndicator {
                 idc = 1101;
-                x = POS_X(0);
+                x = POS_X(2);
                 y = POS_Y;
                 w = SIZE;
                 h = SIZE;
