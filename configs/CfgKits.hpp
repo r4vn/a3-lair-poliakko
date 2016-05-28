@@ -233,14 +233,14 @@ class CfgRespawnInventory {
         displayName = $STR_lair_kitPilot;
         icon = "\a3\ui_f\data\IGUI\Cfg\Actions\getinpilot_ca.paa";
         weapons[] = {
-            "hgun_ACPC2_F",
+            "hgun_PDW2000_F",
             "Throw",
             "Put"
         };
         magazines[] = {
-            "9Rnd_45ACP_Mag",
-            "9Rnd_45ACP_Mag",
-            "9Rnd_45ACP_Mag",
+            "16Rnd_9x21_Mag",
+            "16Rnd_9x21_Mag",
+            "16Rnd_9x21_Mag",
             "SmokeShellRed"
         };
         items[] = {
