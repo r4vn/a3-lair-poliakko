@@ -175,6 +175,10 @@
         </Container>
 
         <Container name="Kits">
+            <Key ID="STR_lair_requestKit">
+                <Original>&lt;t color="#eeff41"&gt;Request %1&lt;/t&gt;</Original>
+                <German>&lt;t color="#eeff41"&gt;%1 anfordern&lt;/t&gt;</German>
+            </Key>
             <Key ID="STR_lair_kitSystem">
                 <Original>Kit System</Original>
                 <German>Ausrüstungssystem</German>

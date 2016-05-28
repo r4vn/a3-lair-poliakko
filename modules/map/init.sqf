@@ -5,7 +5,7 @@
  * Initializes player markers.
  */
 
-#include "..\script_component.hpp"
+#include "script_component.hpp"
 
 setGroupIconsVisible [true, true];
 

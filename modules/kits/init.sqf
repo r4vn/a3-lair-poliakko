@@ -5,7 +5,7 @@
  * Initializes client side of kits.
  */
 
-#include "..\script_component.hpp"
+#include "script_component.hpp"
 
 player addEventHandler ["Respawn", {
     private [
@@ -22,9 +22,7 @@ player addEventHandler ["Respawn", {
     _kitVarName = getText (missionConfigFile >> "CfgKits" >> "kitVarName");
     _defaultKit = getText (missionConfigFile >> "CfgKits" >> "defaultKit");
 
-    _selectedKit = _corpse getVariable [_kitVarName, _defaultKit];
+    _selectedKit = missionNamespace getVariable [
+            "BIS_fnc_respawnMenuInventory_selected", _defaultKit];
     _unit setVariable [_kitVarName, _selectedKit];
-
-    [_unit, missionConfigFile >> "CfgRespawnInventory" >> _selectedKit]
-            call BIS_fnc_loadInventory;
 }];

@@ -5,7 +5,7 @@
  * Initializes common player side stuff.
  */
 
-#include "..\script_component.hpp"
+#include "script_component.hpp"
 
 ["InitializePlayer", [player]] call BIS_fnc_dynamicGroups;
 

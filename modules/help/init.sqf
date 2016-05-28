@@ -5,7 +5,7 @@
  * Creates some helping information about the gamemode.
  */
 
-#include "..\script_component.hpp"
+#include "script_component.hpp"
 
 _subject = localize STRING_NAME("diarySubject");
 _recordCaches = localize STRING_NAME("diaryRecordCaches");
